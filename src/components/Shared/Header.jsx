@@ -7,7 +7,7 @@ const Header = () => {
                 <div className="log0">
                     <img
                         src={logo}
-                        class=""
+                        className=""
                         alt="Main Logo"
                     />
                 </div>

@@ -1540,11 +1540,11 @@
     "logoURL": "/rimg/provider-logos/airlines/v/DJ.png?crop=false&width=108&height=92&fallback=default2.png&_v=e3b4ebdc9a169ba528fc8f8a5b56364d"
   },
   {
-    "site": "https://dk.sunclassairlines.dk/",
+    "site": "https://dk.sunclassNameairlines.dk/",
     "code": "DK",
     "alliance": "none",
     "phone": "+45 32 47 72 00",
-    "name": "Sunclass Airlines",
+    "name": "SunclassName Airlines",
     "usName": null,
     "__clazz": "com.r9.harmony.httpd.mobileapis.AirlineMobile",
     "defaultName": null,
@@ -14696,11 +14696,11 @@
     "logoURL": "/rimg/provider-logos/airlines/v/6O.png?crop=false&width=108&height=92&fallback=default2.png&_v=bcab88080be18d3ae53aaa8e0dc85344"
   },
   {
-    "site": "https://www.jetclass.com",
+    "site": "https://www.jetclassName.com",
     "code": "70",
     "alliance": "none",
     "phone": "+43 1 25 300 25 127",
-    "name": "JetClass",
+    "name": "JetclassName",
     "usName": null,
     "__clazz": "com.r9.harmony.httpd.mobileapis.AirlineMobile",
     "defaultName": null,

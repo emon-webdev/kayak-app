@@ -1,22 +1,22 @@
 import React from 'react';
+import airlineLogo from "../../assets/airlines-logo/airlines-1.svg";
+const SingleAirlines = ({ airline }) => {
+    const { phone, site, name, alliance } = airline;
 
-const SingleAirlines = () => {
     return (
-        <div>
-            <div className="single-airlines bg-white rounded-sm cursor-pointer p-[30px] flex items-center justify-center w-max-[252px]  w-full max-h-[185px] h-[185px]">
-                <img src={airlines1} alt="" />
-                <div className='ml-[22px]  '>
-                    <h3
-                        className='text-sm font-bold mb-3'
-                    >American Airlines</h3>
-                    <div className='airline-info'>
-                        <p className='text-sm text-[#000] mb-2'>OW</p>
-                        <p className='mb-2'><a className='text-sm text-[#000] ' href="tel:+18004337300">+1 800 433 7300</a></p>
+        <div className="single-airlines bg-white rounded-sm cursor-pointer p-[30px] flex items-center justify-center w-max-[252px]  w-full max-h-[185px] h-[185px]">
+            <img className='basis-12' src={airlineLogo} alt="" />
+            <div className='ml-[22px] w-[60%]'>
+                <h3
+                    className='text-sm font-bold'
+                >{name}</h3>
+                <p className='text-sm text-[#000] my-2'>{alliance}</p>
+                <div className='airline-info'>
+                    <p className='my-2'><a className='text-sm text-[#000] ' href="tel:+18004337300">{phone}</a></p>
 
-                        <p><a className='text-sm text-[#000]' href="https://www.AA.com">
-                            https://www.AA.com
-                        </a></p>
-                    </div>
+                    <p><a className='text-sm text-[#000] break-words' href="https://www.AA.com">
+                        {site}
+                    </a></p>
                 </div>
             </div>
         </div>
